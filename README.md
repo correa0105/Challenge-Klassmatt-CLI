@@ -22,10 +22,21 @@ simplificada.
 
 ## Como Jogar
 
+**Inicie o jogo:**
+   Compile e execute o jogo seguindo os passos abaixo.
+    
+1. Você precisa ter o Java Runtime Environment (JRE) ou o Java Development Kit (JDK) instalado.
+2. Navegue até a pasta build.
+3. Abra seu prompt de comando (certifique de estar na pasta /build).
+4. Digite o seguinte comando:
+
+   ```sh
+   java -jar JogoDaVelha.jar
+   ````
+   
 - Ao iniciar o jogo, o tabuleiro é exibido vazio.
 - Os jogadores decidem quem jogará com o símbolo X e quem jogará com o símbolo O.
 - Os jogadores alternam os turnos, começando pelo jogador que joga com o símbolo X.
 - Em cada turno, o jogador atual escolhe uma célula vazia no tabuleiro para colocar o seu símbolo.
 - Após cada jogada, o jogo verifica se o jogador atual formou uma linha de três de seus próprios símbolos. Se sim, o jogador é declarado vencedor e o jogo termina.
 - Se todas as células do tabuleiro estiverem preenchidas e nenhum jogador tiver formado uma linha de três símbolos, o jogo termina em empate.
-- Após a conclusão do jogo, os jogadores têm a opção de reiniciar o jogo para uma nova partida.
